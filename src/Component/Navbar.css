@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Segoe UI', sans-serif;
+  
+  }
+  
+  .navbar {
+    background: rgb(24,24,27);
+    background: linear-gradient(90deg, rgba(24,24,27,1) 14%, rgba(5,4,76,1) 85%);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #FFFFFF;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .nav-links i {
+    font-size: 30px;
+  }
+  
+  .nav-links li {
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: #d4d2d2;
+  
+  }
+  
+
+  
+  @media (max-width: 2560px) {
+    .icon {
+      display: none;
+    }
+    .menu{
+      display: none;
+    }
+    input{
+      margin: 0px;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .icon,
+    .admin,
+    .bell {
+      display: none;
+    }
+  
+    .menu {
+      position: absolute;
+      top: 80px;
+      right: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      z-index: 1;
+      display: block;
+      opacity: 0.8;
+      z-index: 1;
+    }
+  
+    .menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .menu li {
+      padding: 15px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .menu li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+  
+    .menu li:hover {
+      background-color: #f4f4f4;
+    } 
+  }
+  
+  
+  @media (max-width: 500px) {
+  .navbar {
+    justify-content: center;
+    }
+    .navbar {
+      /* padding: 1rem; */
+    }
+    .nav-links {
+      flex-direction: row;
+    }
+    ul.nav-links{
+      padding: 0px;
+    }
+    .nav-links li {
+      font-size: 20px;
+      /* margin-left: 20px; */
+    }
+    .logo img{
+       margin-right: 120px;
+       max-width: 100px;
+    }
+    
+  
+  }
+  
+  

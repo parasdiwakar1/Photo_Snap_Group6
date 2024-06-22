@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', 'Segoe UI', sans-serif;
+}
+
+/* General Styling */
+.login, .card-title, .card-brandX, .main-box {
+  padding: 10px;
+  text-align: center;
+}
+
+.label {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.login-h1 {
+  color: black;
+  margin: 20px;
+  text-shadow: -3px 3px 2px rgb(130, 132, 131);
+}
+
+/* Login Container */
+.login {
+  height: auto;
+  width: 90%;
+  max-width: 300px;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.databox {
+  margin-top: 30px;
+}
+
+input {
+  border-radius: 5px;
+  margin: 10px 0;
+  border: solid 2px #121111;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  color: black;
+  padding: 5px;
+}
+
+#form-container {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: black;
+  margin: 0 auto;
+  height: auto;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.submit_s, .submit {
+  margin-top: 30px;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.submit_s:hover, .submit:hover {
+  background-color: rgb(54, 51, 51);
+}
+
+/* Login Box */
+.loginbox {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.login-y {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f0f0;
+}
+
+.login-img {
+  height: 500px;
+  width: 350px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .login-img {
+    display: none;
+  }
+  .loginbox {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .loginbox {
+    padding: 10px;
+  }
+  #form-container {
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,211 @@
+body{
+  background-color:  #0A0F25;
+}
+
+.container {
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid black;
+    align-items: center; 
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col {
+    margin: 10px;
+    width: 300px;
+  
+  }
+  h3{
+    /* background-color: #FF8F00; */
+    font-size:1.5rem;
+    color: white;
+  }
+     
+  .title_heading{
+    
+    font-weight: bold;
+    font-size:3rem ;
+    color:white
+     
+  
+  } 
+  .footer_box{
+    background: #151b2e;
+    padding-bottom: 80p;
+    border: 2px solid black;
+    height: 600px;
+    width: 100%;
+  }
+  
+
+
+  
+
+.card {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-title {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  
+
+   .footer {
+    color: hsl(0, 0%, 100%);
+    padding: 20px ;
+    font-family: Arial, sans-serif;
+    background-color: #0A0F25;
+    /* display: flex; */
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
+    list-style: none;
+    margin-left: 12px;
+  }
+  
+  
+  .footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-section-help{
+    list-style: none;
+    padding: 0;
+
+  }
+  .footer-section-follow-us{
+    list-style: none;
+    padding: 0;
+
+
+  }
+  .footer-languages{
+    list-style: none;
+    padding: 0;
+
+  }
+  .footer-section-products{
+    list-style: none;
+    padding: 0;
+
+
+
+  }
+
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  
+  .footer-languages {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .footer-languages ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-languages ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-languages ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .footer-languages ul li a:hover {
+    text-decoration: underline;
+  }
+  .footer-section-company{
+    list-style: none;
+    
+  }
+ 
+ footer a {
+    color: white;
+} 
+
+  
+  @media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+    .footer-section-products{
+      display: none;
+    }
+    .col {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+    .footer-languages{
+      display: none;
+    }
+
+    .title_heading {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .footer-content {
+        
+        align-items: center;
+        display: flex;
+    }
+
+    .footer-languages ul li {
+        display: block;
+        margin: 3px 0;
+        color:#FFFFFF;
+    }
+
+    .ul{
+      margin-left: 15px;
+    }
+  }
